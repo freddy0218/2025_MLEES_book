@@ -17,3 +17,9 @@ parts:
       sections: 
         - file: notebook/W1_S1_Tutorial.ipynb
           title: Variables, Control Flow, and File I/O
+        - file: notebook/W1_S1.ipynb
+          title: (Exercises) Text and Tabular Files
+        - file: notebook/W1_S2_Tutorial.ipynb
+          title: Data Structure, Functions, and Classes
+        - file: notebook/W1_S2.ipynb
+          title: (Exercises) Simple Data Structures
