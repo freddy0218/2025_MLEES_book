@@ -1,0 +1,19 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- caption: Introduction
+  numbered: false
+  chapters:
+    - file: notebook/00_Running_Python_Scripts.md
+      title: Running Python scripts
+- caption: (Part I) Basics of Scientific Programming for Applied Machine Learning
+  numbered: true
+  chapters: 
+    - file: notebook/intro_python.md
+      title: Introduction to Python for Earth and Environmental Sciences
+      sections: 
+        - file: notebook/W1_S1_Tutorial.ipynb
+          title: Variables, Control Flow, and File I/O
