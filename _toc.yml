@@ -35,3 +35,15 @@ parts:
           title: Tabular Data with Pandas
         - file: notebook/W3_S1.ipynb
           title: (Exercise) Earthquake Data Analysis
+        - file: notebook/W3_S2_Tutorial.ipynb
+          title: Geospatial Data with Geopandas
+        - file: notebook/W3_S2.ipynb
+          title: (Exercise) Hurricane Track Analysis
+        - file: notebook/W4_S1_Tutorial.ipynb
+          title: Regression, Classification, and Clustering with Scikit-learn
+        - file: notebook/W4_S1.ipynb
+          title: (Exercises) Multivariate linear regression and clustering
+        - file: notebook/W4_S2_Tutorial.ipynb
+          title: Statistical Graphics with Seaborn
+        - file: notebook/W4_S2.ipynb
+          title: (Exercise) Marathon Data Analysis
