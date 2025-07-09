@@ -23,3 +23,15 @@ parts:
           title: Data Structure, Functions, and Classes
         - file: notebook/W1_S2.ipynb
           title: (Exercises) Simple Data Structures
+        - file: notebook/W2_S1_Tutorial.ipynb
+          title: Scientific Computing with Numpy
+        - file: notebook/W2_S1.ipynb
+          title: (Exercise) Ocean Floats Data Analysis
+        - file: notebook/W2_S2_Tutorial.ipynb
+          title: Visualization with Matplotlib and Cartopy
+        - file: notebook/W2_S2.ipynb
+          title: (Exercises) Replicating plots
+        - file: notebook/W3_S1_Tutorial.ipynb
+          title: Tabular Data with Pandas
+        - file: notebook/W3_S1.ipynb
+          title: (Exercise) Earthquake Data Analysis
