@@ -68,11 +68,11 @@ parts:
       sections:
         - file: notebook_ml/Simple_Machine_Learning_Algorithms_for_Classification_Tasks.ipynb
           title: Simple Machine Learning Algorithms for Classification Tasks
-        - file: notebook_ml/(Exercises)_Support_Vector_Machines.ipynb
+        - file: notebook_ml/S2_1_SVM.ipynb
           title: (Exercises) Support Vector Machines
-        - file: notebook_ml/(Exercises)_Decision_Trees_and_Random_Forest.ipynb
+        - file: notebook_ml/S2_1_Decision_Trees_and_RF.ipynb
           title: (Exercises) Decision Trees and Random Forest
-        - file: notebook_ml/(Exercises)_Ensemble_Modeling_and_Stacking.ipynb
+        - file: notebook_ml/S2_3_Ensemble_Learning_Random_Forests.ipynb
           title: (Exercises) Ensemble Modeling and Stacking
-        - file: notebook_ml/(Exercises)_Wildfire_Susceptibility_Mapping.ipynb
+        - file: notebook_ml/S2_4_Wildfire_Risk_Italy.ipynb
           title: (Exercises) Wildfire Susceptibility Mapping
