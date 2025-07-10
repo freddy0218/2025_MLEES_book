@@ -63,3 +63,16 @@ parts:
           title: Statistical Forecasting in Environmental Sciences
         - file: notebook_ml/S1_3_Statistical_Forecasting.ipynb
           title: (Exercises) Statistical Forecasting
+    - file: ML/Week_2_Decision_Trees_Random_Forests_SVMs.ipynb
+      title: Decision Trees, Random Forests, Support Vector Machines and Environmental Risk Analysis
+      sections:
+        - file: notebook_ml/Simple_Machine_Learning_Algorithms_for_Classification_Tasks.ipynb
+          title: Simple Machine Learning Algorithms for Classification Tasks
+        - file: notebook_ml/(Exercises)_Support_Vector_Machines.ipynb
+          title: (Exercises) Support Vector Machines
+        - file: notebook_ml/(Exercises)_Decision_Trees_and_Random_Forest.ipynb
+          title: (Exercises) Decision Trees and Random Forest
+        - file: notebook_ml/(Exercises)_Ensemble_Modeling_and_Stacking.ipynb
+          title: (Exercises) Ensemble Modeling and Stacking
+        - file: notebook_ml/(Exercises)_Wildfire_Susceptibility_Mapping.ipynb
+          title: (Exercises) Wildfire Susceptibility Mapping
