@@ -47,3 +47,19 @@ parts:
           title: Statistical Graphics with Seaborn
         - file: notebook/W4_S2.ipynb
           title: (Exercise) Marathon Data Analysis
+- caption: (Part II) Basics of Machine Learning for Earth and Environmental Sciences
+  numbered: true
+  chapters:
+    - file: notebook_ml/Week_1_Linear&Logistic_Regression.ipynb
+      title: Linear Regression for Regression, Logistic Regression for Classification and Statistical Forecasting
+      sections:
+        - file: notebook_ml/W1_2.ipynb
+          title: Classification and Regression
+        - file: notebook_ml/S1_1_Classification.ipynb
+          title: (Exercises) Classification
+        - file: notebook_ml/S1_2_Training_Models.ipynb
+          title: (Exercises) Training Models
+        - file: notebook_ml/W1_2_Stat.ipynb
+          title: Statistical Forecasting in Environmental Sciences
+        - file: notebook_ml/S1_3_Statistical_Forecasting.ipynb
+          title: (Exercises) Statistical Forecasting
