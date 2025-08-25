@@ -108,3 +108,14 @@ parts:
           title: (Exercise) Deep Computer Vision
         - file: notebook_dl/S5_2_CNN_and_EuroSAT.ipynb
           title: (Exercise) Land Cover Classification
+    - file: notebook_dl/Week_6_Recurrent_NN.ipynb
+      title: Recurrent Neural Networks and Hydrological Modeling
+      sections:
+        - file: notebook_dl/W6_RNN_Summary.ipynb
+          title: Introduction to Recurrent Neural Networks
+        - file: notebook_dl/Neural_Networks_for_Time_Series_Predictions.ipynb
+          title: Neural Networks for Time Series Predictions
+        - file: notebook_dl/S6_1_Composing_Music_With_RNNs_CNNs.ipynb
+          title: (Exercise) Composing Music
+        - file: notebook_dl/S6_2_LSTM.ipynb
+          title: (Exercise) Hydrological Modeling
