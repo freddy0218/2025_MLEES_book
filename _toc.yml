@@ -63,7 +63,7 @@ parts:
           title: Statistical Forecasting in Environmental Sciences
         - file: notebook_ml/S1_3_Statistical_Forecasting.ipynb
           title: (Exercises) Statistical Forecasting
-    - file: ML/Week_2_Decision_Trees_Random_Forests_SVMs.ipynb
+    - file: notebook_ml/Week_2_Decision_Trees_Random_Forests_SVMs.ipynb
       title: Decision Trees, Random Forests, Support Vector Machines and Environmental Risk Analysis
       sections:
         - file: notebook_ml/Simple_Machine_Learning_Algorithms_for_Classification_Tasks.ipynb
@@ -76,3 +76,14 @@ parts:
           title: (Exercises) Ensemble Modeling and Stacking
         - file: notebook_ml/S2_4_Wildfire_Risk_Italy.ipynb
           title: (Exercises) Wildfire Susceptibility Mapping
+    - file: notebook_ml/Week_3_Dimensionality_Reduction_Clustering.ipynb
+      title: Unsupervised Learning (Clustering, Dimensionality Reduction) and Environmental Complexity
+      sections:
+        - file: notebook_ml/Chapter4-UnsupervisedLearning.ipynb
+          title: Unsupervised Learning for Clustering and Dimensionality Reduction
+        - file: notebook_ml/S3_1_Dimensionality.ipynb
+          title: (Exercise) Dimensionality Reduction
+        - file: notebook_ml/S3_2_Clustering.ipynb
+          title: (Exercise) Clustering
+        - file: notebook_ml/S3_3_THOR.ipynb
+          title: (Exercise) Ocean Regimes Identification
