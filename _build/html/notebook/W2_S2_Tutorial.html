@@ -196,6 +196,38 @@
 <li class="toctree-l2"><a class="reference internal" href="W2_S2.html">1.8. (Exercises) Replicating plots</a></li>
 <li class="toctree-l2"><a class="reference internal" href="W3_S1_Tutorial.html">1.9. Tabular Data with Pandas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="W3_S1.html">1.10. (Exercise) Earthquake Data Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="W3_S2_Tutorial.html">1.11. Geospatial Data with Geopandas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="W3_S2.html">1.12. (Exercise) Hurricane Track Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="W4_S1_Tutorial.html">1.13. Regression, Classification, and Clustering with Scikit-learn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="W4_S1.html">1.14. (Exercises) Multivariate linear regression and clustering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="W4_S2_Tutorial.html">1.15. Statistical Graphics with Seaborn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="W4_S2.html">1.16. (Exercise) Marathon Data Analysis</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">(Part II) Basics of Machine Learning for Earth and Environmental Sciences</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../notebook_ml/Week_1_Linear%26Logistic_Regression.html">2. Linear Regression for Regression, Logistic Regression for Classification and Statistical Forecasting</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../notebook_ml/W1_2.html">2.1. Classification and Regression</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../notebook_ml/S1_1_Classification.html">2.2. (Exercises) Classification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../notebook_ml/S1_2_Training_Models.html">2.3. (Exercises) Training Models</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../notebook_ml/W1_2_Stat.html">2.4. Statistical Forecasting in Environmental Sciences</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../notebook_ml/S1_3_Statistical_Forecasting.html">2.5. (Exercises) Statistical Forecasting</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../notebook_ml/Week_2_Decision_Trees_Random_Forests_SVMs.html">3. Decision Trees, Random Forests, Support Vector Machines and Environmental Risk Analysis</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../notebook_ml/Simple_Machine_Learning_Algorithms_for_Classification_Tasks.html">3.1. Simple Machine Learning Algorithms for Classification Tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../notebook_ml/S2_1_SVM.html">3.2. (Exercises) Support Vector Machines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../notebook_ml/S2_1_Decision_Trees_and_RF.html">3.3. (Exercises) Decision Trees and Random Forest</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../notebook_ml/S2_3_Ensemble_Learning_Random_Forests.html">3.4. (Exercises) Ensemble Modeling and Stacking</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../notebook_ml/S2_4_Wildfire_Risk_Italy.html">3.5. (Exercises) Wildfire Susceptibility Mapping</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../notebook_ml/Week_3_Dimensionality_Reduction_Clustering.html">4. Unsupervised Learning (Clustering, Dimensionality Reduction) and Environmental Complexity</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../notebook_ml/Chapter4-UnsupervisedLearning.html">4.1. Unsupervised Learning for Clustering and Dimensionality Reduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../notebook_ml/S3_1_Dimensionality.html">4.2. (Exercise) Dimensionality Reduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../notebook_ml/S3_2_Clustering.html">4.3. (Exercise) Clustering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../notebook_ml/S3_3_THOR.html">4.4. (Exercise) Ocean Regimes Identification</a></li>
 </ul>
 </details></li>
 </ul>
@@ -464,18 +496,6 @@ document.write(`
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">get_ipython</span><span class="p">()</span><span class="o">.</span><span class="n">run_line_magic</span><span class="p">(</span><span class="s1">&#39;matplotlib&#39;</span><span class="p">,</span> <span class="s1">&#39;inline&#39;</span><span class="p">)</span>
-
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;matplotlib&#39;
-</pre></div>
-</div>
-</div>
 </div>
 </section>
 <section id="figure-and-axes">
@@ -487,10 +507,20 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Figure size 640x480 with 0 Axes&gt;
+</pre></div>
+</div>
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Figure size 1300x500 with 0 Axes&gt;
 </pre></div>
 </div>
 </div>
@@ -502,6 +532,9 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<img alt="../_images/0cd2143e1949a3d03de831e735668482a4f44733070ddebdd1e22d739f5001c6.png" src="../_images/0cd2143e1949a3d03de831e735668482a4f44733070ddebdd1e22d739f5001c6.png" />
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -509,6 +542,9 @@ document.write(`
 <span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_axes</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/3e6a2838f605ea3db0bcc8f26c58707e847655109f9cd88ca20e8c24498d1783.png" src="../_images/3e6a2838f605ea3db0bcc8f26c58707e847655109f9cd88ca20e8c24498d1783.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -518,6 +554,9 @@ document.write(`
 <span class="n">ax2</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_axes</span><span class="p">([</span><span class="mf">0.6</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">],</span> <span class="n">facecolor</span><span class="o">=</span><span class="s1">&#39;g&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/db260ddfaba1b52ba4e884a7c7b59343935badb3a046c32f2dd903361b7712e4.png" src="../_images/db260ddfaba1b52ba4e884a7c7b59343935badb3a046c32f2dd903361b7712e4.png" />
 </div>
 </div>
 </section>
@@ -531,6 +570,9 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<img alt="../_images/8af4b462ad9f0cd812e6e3c765a0a02e9911bad39c293f76a56cd3e0cb4a7b84.png" src="../_images/8af4b462ad9f0cd812e6e3c765a0a02e9911bad39c293f76a56cd3e0cb4a7b84.png" />
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -539,10 +581,19 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<img alt="../_images/beeada7066a1f33b64013e9bb4ccd4a27face0ca263fe20aff25a212a1b7ed9f.png" src="../_images/beeada7066a1f33b64013e9bb4ccd4a27face0ca263fe20aff25a212a1b7ed9f.png" />
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">axes</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[&lt;Axes: &gt;, &lt;Axes: &gt;, &lt;Axes: &gt;],
+       [&lt;Axes: &gt;, &lt;Axes: &gt;, &lt;Axes: &gt;]], dtype=object)
 </pre></div>
 </div>
 </div>
@@ -554,6 +605,9 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<img alt="../_images/28903d5f9c20c3c36c1bd5299b135fc7340b2a8c04e459444f081bed1795869c.png" src="../_images/28903d5f9c20c3c36c1bd5299b135fc7340b2a8c04e459444f081bed1795869c.png" />
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -561,10 +615,18 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<img alt="../_images/4c1d8777a599aa227e68b4528ef68592589bc195d0ea0edf37f9f6dc20244f78.png" src="../_images/4c1d8777a599aa227e68b4528ef68592589bc195d0ea0edf37f9f6dc20244f78.png" />
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">axes</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([&lt;Axes: &gt;, &lt;Axes: &gt;], dtype=object)
 </pre></div>
 </div>
 </div>
@@ -591,6 +653,12 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x120ffafc0&gt;]
+</pre></div>
+</div>
+<img alt="../_images/c91225832ed42c335a26cde323642011d9da54def57e825a1e973f12be0e5649.png" src="../_images/c91225832ed42c335a26cde323642011d9da54def57e825a1e973f12be0e5649.png" />
+</div>
 </div>
 <p>This does the same thing as</p>
 <div class="cell docutils container">
@@ -598,6 +666,12 @@ document.write(`
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x1215f5d00&gt;]
+</pre></div>
+</div>
+<img alt="../_images/c91225832ed42c335a26cde323642011d9da54def57e825a1e973f12be0e5649.png" src="../_images/c91225832ed42c335a26cde323642011d9da54def57e825a1e973f12be0e5649.png" />
 </div>
 </div>
 <p>This starts to matter when we have multiple axes to worry about.</p>
@@ -609,6 +683,12 @@ document.write(`
 <span class="n">ax1</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">z</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x121695940&gt;]
+</pre></div>
+</div>
+<img alt="../_images/5eaecbd54918943b5cd4de6abfa4565d5261ab8beb92ec2e9f7af02453ef4207.png" src="../_images/5eaecbd54918943b5cd4de6abfa4565d5261ab8beb92ec2e9f7af02453ef4207.png" />
 </div>
 </div>
 </section>
@@ -634,6 +714,9 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<img alt="../_images/5f26b01ee73a2c679a23b5b23dc205195b6d797dba91a2f7d9366e0834cde9a1.png" src="../_images/5f26b01ee73a2c679a23b5b23dc205195b6d797dba91a2f7d9366e0834cde9a1.png" />
+</div>
 </div>
 </section>
 <section id="customizing-line-plots">
@@ -645,6 +728,13 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x1213f45f0&gt;,
+ &lt;matplotlib.lines.Line2D at 0x1216559a0&gt;]
+</pre></div>
+</div>
+<img alt="../_images/bbeaf11dbfbdfcb62249dff55a3494899d04468d09db7924fc807814765c0cf3.png" src="../_images/bbeaf11dbfbdfcb62249dff55a3494899d04468d09db7924fc807814765c0cf3.png" />
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -654,6 +744,13 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x12118b7d0&gt;,
+ &lt;matplotlib.lines.Line2D at 0x12118b770&gt;]
+</pre></div>
+</div>
+<img alt="../_images/927c5a9c6d5708757fb6b6a8f160c53d9b76f1f75f9cd089f4914d2f0521a8c6.png" src="../_images/927c5a9c6d5708757fb6b6a8f160c53d9b76f1f75f9cd089f4914d2f0521a8c6.png" />
+</div>
 </div>
 <p>A “parametric” graph:</p>
 <div class="cell docutils container">
@@ -662,6 +759,12 @@ document.write(`
 <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x1210b9e80&gt;]
+</pre></div>
+</div>
+<img alt="../_images/0f72a30c6bf1f055f95a14f7c6482a78b2a8730e4a7f60f5594c7341817c3bfd.png" src="../_images/0f72a30c6bf1f055f95a14f7c6482a78b2a8730e4a7f60f5594c7341817c3bfd.png" />
 </div>
 </div>
 <section id="line-styles">
@@ -679,6 +782,12 @@ document.write(`
 <span class="n">axes</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">z</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">&#39;-.&#39;</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x120e38ad0&gt;]
+</pre></div>
+</div>
+<img alt="../_images/b810cb2056df1321b9c817f4a15bbf79d378c51680c15c611f25ca1c45614de2.png" src="../_images/b810cb2056df1321b9c817f4a15bbf79d378c51680c15c611f25ca1c45614de2.png" />
 </div>
 </div>
 </section>
@@ -703,6 +812,12 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x1218589e0&gt;]
+</pre></div>
+</div>
+<img alt="../_images/b86c2b8ff0dd4b3818aaaf2cc4740a0609dbaa5f9100f527a7127ed0a8a2a25c.png" src="../_images/b86c2b8ff0dd4b3818aaaf2cc4740a0609dbaa5f9100f527a7127ed0a8a2a25c.png" />
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -724,6 +839,12 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x1219352e0&gt;]
+</pre></div>
+</div>
+<img alt="../_images/06212adbffaf7568de7cca506282c7d85114bbbc51e4796e7f4504a38dc60631.png" src="../_images/06212adbffaf7568de7cca506282c7d85114bbbc51e4796e7f4504a38dc60631.png" />
+</div>
 </div>
 <p>There is a default color cycle built into <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code>.</p>
 <div class="cell docutils container">
@@ -732,6 +853,8 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_html"><table><th>'color'</th><tr><td>'#1f77b4'</td></tr><tr><td>'#ff7f0e'</td></tr><tr><td>'#2ca02c'</td></tr><tr><td>'#d62728'</td></tr><tr><td>'#9467bd'</td></tr><tr><td>'#8c564b'</td></tr><tr><td>'#e377c2'</td></tr><tr><td>'#7f7f7f'</td></tr><tr><td>'#bcbd22'</td></tr><tr><td>'#17becf'</td></tr></table></div></div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -740,6 +863,9 @@ document.write(`
     <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">factor</span><span class="o">*</span><span class="n">y</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/e3c4937f2ca391f5e8e7ec05dffb168dbdde71d236358a13c0b0f34b04401ca8.png" src="../_images/e3c4937f2ca391f5e8e7ec05dffb168dbdde71d236358a13c0b0f34b04401ca8.png" />
 </div>
 </div>
 </section>
@@ -758,6 +884,12 @@ document.write(`
              <span class="n">markeredgecolor</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x121ad0440&gt;]
+</pre></div>
+</div>
+<img alt="../_images/d6d6747df055d28a87a639787b7bc1ccdf9bd9e4dc164c726d134d7b1415a975.png" src="../_images/d6d6747df055d28a87a639787b7bc1ccdf9bd9e4dc164c726d134d7b1415a975.png" />
 </div>
 </div>
 </section>
@@ -784,6 +916,9 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<img alt="../_images/0b882b5dddff1007e1902a195c4317ef98e881840e41a51d526dc6dc241dbcb3.png" src="../_images/0b882b5dddff1007e1902a195c4317ef98e881840e41a51d526dc6dc241dbcb3.png" />
+</div>
 </div>
 </section>
 <section id="axis-limits">
@@ -796,6 +931,12 @@ document.write(`
 <span class="n">ax</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">(</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(-3.0, 3.0)
+</pre></div>
+</div>
+<img alt="../_images/81d319d7829033cd33469316dc56db42c667afebfd818cd949416615db35156c.png" src="../_images/81d319d7829033cd33469316dc56db42c667afebfd818cd949416615db35156c.png" />
 </div>
 </div>
 </section>
@@ -811,6 +952,12 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Text(0, 0, &#39;the maximum&#39;)
+</pre></div>
+</div>
+<img alt="../_images/8e4243d1b0330ddf7b2d7bebddf9e7cf47136cad9a85aedf7dd9f23bef963549.png" src="../_images/8e4243d1b0330ddf7b2d7bebddf9e7cf47136cad9a85aedf7dd9f23bef963549.png" />
+</div>
 </div>
 </section>
 <section id="scatter-plots">
@@ -823,6 +970,12 @@ document.write(`
 <span class="n">fig</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">splot</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.colorbar.Colorbar at 0x120ff9760&gt;
+</pre></div>
+</div>
+<img alt="../_images/0aa568fcf54c98ed7d2550d68075c642260bb5fd038e653464739ed3938210c0.png" src="../_images/0aa568fcf54c98ed7d2550d68075c642260bb5fd038e653464739ed3938210c0.png" />
 </div>
 </div>
 </section>
@@ -838,6 +991,12 @@ document.write(`
 <span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">barh</span><span class="p">(</span><span class="n">labels</span><span class="p">,</span> <span class="n">values</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;BarContainer object of 3 artists&gt;
+</pre></div>
+</div>
+<img alt="../_images/c7f9ca1540679f81a9eee7a4c71b4a412148f0dad4b9bd62760f84eebaeb88f5.png" src="../_images/c7f9ca1540679f81a9eee7a4c71b4a412148f0dad4b9bd62760f84eebaeb88f5.png" />
 </div>
 </div>
 <p><a name="2D_Plotting_Methods"></a></p>
@@ -858,6 +1017,11 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(50, 100)
+</pre></div>
+</div>
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -866,6 +1030,12 @@ document.write(`
 <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">origin</span><span class="o">=</span><span class="s1">&#39;lower&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.image.AxesImage at 0x121bca6c0&gt;
+</pre></div>
+</div>
+<img alt="../_images/c586420a97013117100b1a665366e55994d268624df743c9f257f26d0305f398.png" src="../_images/c586420a97013117100b1a665366e55994d268624df743c9f257f26d0305f398.png" />
 </div>
 </div>
 </section>
@@ -880,6 +1050,12 @@ document.write(`
 <span class="n">fig</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">pc1</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.colorbar.Colorbar at 0x121eb7a70&gt;
+</pre></div>
+</div>
+<img alt="../_images/b21415a1cdc1ca3688126fc1e215daa37ad5a5f8bdb5df32ebd7316258cc3614.png" src="../_images/b21415a1cdc1ca3688126fc1e215daa37ad5a5f8bdb5df32ebd7316258cc3614.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -896,6 +1072,12 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.collections.QuadMesh at 0x121f24830&gt;
+</pre></div>
+</div>
+<img alt="../_images/1e85099809a32cb7ac471e233a66e665cbb238a0382be5a13ab36c4e7ec1472e.png" src="../_images/1e85099809a32cb7ac471e233a66e665cbb238a0382be5a13ab36c4e7ec1472e.png" />
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -906,6 +1088,12 @@ document.write(`
 <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x_sm</span><span class="p">,</span> <span class="n">y_distorted</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.collections.PathCollection at 0x122012300&gt;
+</pre></div>
+</div>
+<img alt="../_images/d0a768a42af7424b7b27df74d5bf5785364e2c59c6fcd9a93ba56ea6cdcbcee7.png" src="../_images/d0a768a42af7424b7b27df74d5bf5785364e2c59c6fcd9a93ba56ea6cdcbcee7.png" />
 </div>
 </div>
 </section>
@@ -921,6 +1109,12 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.contour.QuadContourSet at 0x121e316a0&gt;
+</pre></div>
+</div>
+<img alt="../_images/e34ef8d951b1ed86db508d3971c0623580fb0c7716f7fca8cb28a5f5e34d3b55.png" src="../_images/e34ef8d951b1ed86db508d3971c0623580fb0c7716f7fca8cb28a5f5e34d3b55.png" />
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -933,6 +1127,12 @@ document.write(`
 <span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">c1</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.colorbar.Colorbar at 0x122323050&gt;
+</pre></div>
+</div>
+<img alt="../_images/16ddd836f5dd31e7e021a8eb2daaa28d9c42475d0e1588ea8938c552798061ed.png" src="../_images/16ddd836f5dd31e7e021a8eb2daaa28d9c42475d0e1588ea8938c552798061ed.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -948,6 +1148,12 @@ document.write(`
 <span class="n">fig</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">cf1</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.colorbar.Colorbar at 0x121f55c70&gt;
+</pre></div>
+</div>
+<img alt="../_images/b5520af703baf49531f11f964d73c863f3d820a99212dbd68bb26717f922c5f5.png" src="../_images/b5520af703baf49531f11f964d73c863f3d820a99212dbd68bb26717f922c5f5.png" />
 </div>
 </div>
 </section>
@@ -965,6 +1171,12 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.quiver.Quiver at 0x12258b200&gt;
+</pre></div>
+</div>
+<img alt="../_images/f5f674b9ecbf938ec825201e91823c3587aafb5dc7a6f1dffa3eab3579c3e6ee.png" src="../_images/f5f674b9ecbf938ec825201e91823c3587aafb5dc7a6f1dffa3eab3579c3e6ee.png" />
+</div>
 </div>
 </section>
 <section id="streamplot">
@@ -975,6 +1187,12 @@ document.write(`
 <span class="n">ax</span><span class="o">.</span><span class="n">streamplot</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">yy</span><span class="p">,</span> <span class="n">u</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">density</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="p">(</span><span class="n">u</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">v</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.streamplot.StreamplotSet at 0x121f111f0&gt;
+</pre></div>
+</div>
+<img alt="../_images/633de1ed184e0c2774ff9d16ce60d2a3295b0720a28ee0706f9038db09b478d8.png" src="../_images/633de1ed184e0c2774ff9d16ce60d2a3295b0720a28ee0706f9038db09b478d8.png" />
 </div>
 </div>
 </section>
@@ -1017,11 +1235,135 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Collecting shapely==1.6.4
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>  Downloading Shapely-1.6.4.tar.gz (224 kB)
+?25l     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">0.0/224.2 kB</span> <span class=" -Color -Color-Red">?</span> eta <span class=" -Color -Color-Cyan">-:--:--</span>
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━ <span class=" -Color -Color-Green">215.0/224.2 kB</span> <span class=" -Color -Color-Red">9.0 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:01</span>
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">224.2/224.2 kB</span> <span class=" -Color -Color-Red">4.2 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
+?25h
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>  Preparing metadata (setup.py) ... ?25l-
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span> error
+  <span class=" -Color -Color-Bold -Color-Bold-Red">error</span>: <span class=" -Color -Color-Bold">subprocess-exited-with-error</span>
+  
+  <span class=" -Color -Color-Red">×</span> <span class=" -Color -Color-Green">python setup.py egg_info</span> did not run successfully.
+  <span class=" -Color -Color-Red">│</span> exit code: <span class=" -Color -Color-Bold -Color-Bold-Cyan">1</span>
+  <span class=" -Color -Color-Red">╰─&gt;</span> <span class=" -Color -Color-Red">[13 lines of output]</span>
+  <span class=" -Color -Color-Red">   </span> Failed `CDLL(/Library/Frameworks/GEOS.framework/Versions/Current/GEOS)`
+  <span class=" -Color -Color-Red">   </span> Failed `CDLL(/opt/local/lib/libgeos_c.dylib)`
+  <span class=" -Color -Color-Red">   </span> Traceback (most recent call last):
+  <span class=" -Color -Color-Red">   </span>   File &quot;&lt;string&gt;&quot;, line 2, in &lt;module&gt;
+  <span class=" -Color -Color-Red">   </span>   File &quot;&lt;pip-setuptools-caller&gt;&quot;, line 34, in &lt;module&gt;
+  <span class=" -Color -Color-Red">   </span>   File &quot;/private/var/folders/7l/4c3bq00s0r994qdpmp2gfm6r0000gq/T/pip-install-hxykyguq/shapely_addb0e5031ef41b8965a8f7a545edb6e/setup.py&quot;, line 80, in &lt;module&gt;
+  <span class=" -Color -Color-Red">   </span>     from shapely._buildcfg import geos_version_string, geos_version, \
+  <span class=" -Color -Color-Red">   </span>   File &quot;/private/var/folders/7l/4c3bq00s0r994qdpmp2gfm6r0000gq/T/pip-install-hxykyguq/shapely_addb0e5031ef41b8965a8f7a545edb6e/shapely/_buildcfg.py&quot;, line 185, in &lt;module&gt;
+  <span class=" -Color -Color-Red">   </span>     lgeos = load_dll(&#39;geos_c&#39;, fallbacks=alt_paths)
+  <span class=" -Color -Color-Red">   </span>             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  <span class=" -Color -Color-Red">   </span>   File &quot;/private/var/folders/7l/4c3bq00s0r994qdpmp2gfm6r0000gq/T/pip-install-hxykyguq/shapely_addb0e5031ef41b8965a8f7a545edb6e/shapely/_buildcfg.py&quot;, line 159, in load_dll
+  <span class=" -Color -Color-Red">   </span>     raise OSError(
+  <span class=" -Color -Color-Red">   </span> OSError: Could not find library geos_c or load any of its variants [&#39;/Library/Frameworks/GEOS.framework/Versions/Current/GEOS&#39;, &#39;/opt/local/lib/libgeos_c.dylib&#39;]
+  <span class=" -Color -Color-Red">   </span> <span class=" -Color -Color-Red">[end of output]</span>
+  
+  <span class=" -Color -Color-Bold -Color-Bold-Magenta">note</span>: This error originates from a subprocess, and is likely not a problem with pip.
+<span class=" -Color -Color-Bold -Color-Bold-Red">error</span>: <span class=" -Color -Color-Bold">metadata-generation-failed</span>
+
+<span class=" -Color -Color-Red">×</span> Encountered error while generating package metadata.
+<span class=" -Color -Color-Red">╰─&gt;</span> See above for output.
+
+<span class=" -Color -Color-Bold -Color-Bold-Magenta">note</span>: This is an issue with the package mentioned above, not pip.
+<span class=" -Color -Color-Bold -Color-Bold-Cyan">hint</span>: See above for details.
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>?25h
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Collecting cartopy
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>  Downloading cartopy-0.25.0-cp312-cp312-macosx_10_13_x86_64.whl.metadata (6.1 kB)
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: numpy&gt;=1.23 in /Users/itam/miniconda3/lib/python3.12/site-packages (from cartopy) (2.3.1)
+Requirement already satisfied: matplotlib&gt;=3.6 in /Users/itam/miniconda3/lib/python3.12/site-packages (from cartopy) (3.10.3)
+Requirement already satisfied: shapely&gt;=2.0 in /Users/itam/miniconda3/lib/python3.12/site-packages (from cartopy) (2.1.1)
+Requirement already satisfied: packaging&gt;=21 in /Users/itam/miniconda3/lib/python3.12/site-packages (from cartopy) (23.2)
+Requirement already satisfied: pyshp&gt;=2.3 in /Users/itam/miniconda3/lib/python3.12/site-packages (from cartopy) (2.3.1)
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Collecting pyproj&gt;=3.3.1 (from cartopy)
+  Downloading pyproj-3.7.2.tar.gz (226 kB)
+?25l     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">0.0/226.3 kB</span> <span class=" -Color -Color-Red">?</span> eta <span class=" -Color -Color-Cyan">-:--:--</span>
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ <span class=" -Color -Color-Green">225.3/226.3 kB</span> <span class=" -Color -Color-Red">10.8 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:01</span>
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">226.3/226.3 kB</span> <span class=" -Color -Color-Red">4.4 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
+?25h
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>  Installing build dependencies ... ?25l-
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span> \
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span> |
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span> /
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span> done
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>?25h  Getting requirements to build wheel ... ?25l- error
+  <span class=" -Color -Color-Bold -Color-Bold-Red">error</span>: <span class=" -Color -Color-Bold">subprocess-exited-with-error</span>
+  
+  <span class=" -Color -Color-Red">×</span> <span class=" -Color -Color-Green">Getting requirements to build wheel</span> did not run successfully.
+  <span class=" -Color -Color-Red">│</span> exit code: <span class=" -Color -Color-Bold -Color-Bold-Cyan">1</span>
+  <span class=" -Color -Color-Red">╰─&gt;</span> <span class=" -Color -Color-Red">[1 lines of output]</span>
+  <span class=" -Color -Color-Red">   </span> proj executable not found. Please set the PROJ_DIR variable. For more information see: https://pyproj4.github.io/pyproj/stable/installation.html
+  <span class=" -Color -Color-Red">   </span> <span class=" -Color -Color-Red">[end of output]</span>
+  
+  <span class=" -Color -Color-Bold -Color-Bold-Magenta">note</span>: This error originates from a subprocess, and is likely not a problem with pip.
+<span class=" -Color -Color-Bold -Color-Bold-Red">error</span>: <span class=" -Color -Color-Bold">subprocess-exited-with-error</span>
+
+<span class=" -Color -Color-Red">×</span> <span class=" -Color -Color-Green">Getting requirements to build wheel</span> did not run successfully.
+<span class=" -Color -Color-Red">│</span> exit code: <span class=" -Color -Color-Bold -Color-Bold-Cyan">1</span>
+<span class=" -Color -Color-Red">╰─&gt;</span> See above for output.
+
+<span class=" -Color -Color-Bold -Color-Bold-Magenta">note</span>: This error originates from a subprocess, and is likely not a problem with pip.
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>?25h
+</pre></div>
+</div>
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">cartopy.crs</span> <span class="k">as</span> <span class="nn">ccrs</span>
 <span class="kn">import</span> <span class="nn">cartopy</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">43</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">cartopy.crs</span> <span class="k">as</span> <span class="nn">ccrs</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">cartopy</span>
+
+<span class="ne">ModuleNotFoundError</span>: No module named &#39;cartopy&#39;
 </pre></div>
 </div>
 </div>
@@ -1303,7 +1645,11 @@ document.write(`
 <p>We can plot a satellite image easily on a map if we know its extent</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">!</span><span class="w"> </span>wget<span class="w"> </span>https://lance-modis.eosdis.nasa.gov/imagery/gallery/2012270-0926/Miriam.A2012270.2050.2km.jpg
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pooch</span>
+<span class="n">img</span> <span class="o">=</span> <span class="n">pooch</span><span class="o">.</span><span class="n">retrieve</span><span class="p">(</span><span class="s1">&#39;https://unils-my.sharepoint.com/:u:/g/personal/tom_beucler_unil_ch/ER4UQukLUFBLjaLKpR_df48BDq1pVvmZqvs3uSyZv4q_RA?download=1&#39;</span><span class="p">,</span>
+                          <span class="n">known_hash</span><span class="o">=</span><span class="s1">&#39;caede90c5d3a0628d4f63d486351bcff35749858d45cd2f7b471d495e40fe493&#39;</span><span class="p">,</span>
+                          <span class="n">processor</span><span class="o">=</span><span class="n">pooch</span><span class="o">.</span><span class="n">Unzip</span><span class="p">()</span>
+                          <span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1312,10 +1658,8 @@ document.write(`
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">12</span><span class="p">))</span>
 
-<span class="c1"># this is from the cartopy docs</span>
-<span class="n">fname</span> <span class="o">=</span> <span class="s1">&#39;Miriam.A2012270.2050.2km.jpg&#39;</span>
 <span class="n">img_extent</span> <span class="o">=</span> <span class="p">(</span><span class="o">-</span><span class="mf">120.67660000000001</span><span class="p">,</span> <span class="o">-</span><span class="mf">106.32104523100001</span><span class="p">,</span> <span class="mf">13.2301484511245</span><span class="p">,</span> <span class="mf">30.766899999999502</span><span class="p">)</span>
-<span class="n">img</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="n">fname</span><span class="p">)</span>
+<span class="n">img</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="n">img</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 
 <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">axes</span><span class="p">(</span><span class="n">projection</span><span class="o">=</span><span class="n">ccrs</span><span class="o">.</span><span class="n">PlateCarree</span><span class="p">())</span>
 

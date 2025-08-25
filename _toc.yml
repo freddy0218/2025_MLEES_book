@@ -87,3 +87,15 @@ parts:
           title: (Exercise) Clustering
         - file: notebook_ml/S3_3_THOR.ipynb
           title: (Exercise) Ocean Regimes Identification
+- caption: (Part III) Deep Learning for the Geosciences
+  numbered: True
+  chapters:
+    - file: notebook_dl/Week_4_Artificial_Neural_Networks.ipynb
+      title: Artificial Neural Networks and Surrogate Modeling
+      sections:
+        - file: notebook_dl/W4_ANN.ipynb
+          title: Introduction to Artificial Neural Networks
+        - file: notebook_dl/S4_1_NNs_with_Keras.ipynb
+          title: (Exercise) Artificial Neural Networks with Keras
+        - file: notebook_dl/S4_2_Physically_informed_parameterization.ipynb
+          title: (Exercise) Physically-Informed Climate Modeling

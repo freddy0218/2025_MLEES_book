@@ -18,22 +18,24 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-#@markdown Fill in the blank code. Double-click here to reveal
-#Import GeoPandas (as gpd), pandas, and matplotlib
-import ____ as gpd
-import ____ as pd
-import matplotlib.pyplot as plt
+import pooch
+# Download the data used in this notebook
+data = pooch.retrieve('https://unils-my.sharepoint.com/:u:/g/personal/tom_beucler_unil_ch/EZQnP79VVtROtOlxw5QpfoYBtPG54sb4CZ2vzlg0bKkPew?download=1',
+                          known_hash='200a740d0e448aa9e4e03d8a9965a70f228442a2da28d804c8e2337d0ef9749e',
+                          processor=pooch.Unzip()
+                          )
 ------------------
 
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-Cell [0;32mIn[7], line 3[0m
-[1;32m      1[0m [38;5;66;03m#@markdown Fill in the blank code. Double-click here to reveal[39;00m
-[1;32m      2[0m [38;5;66;03m#Import GeoPandas (as gpd), pandas, and matplotlib[39;00m
-[0;32m----> 3[0m [38;5;28;01mimport[39;00m [38;5;21;01m____[39;00m [38;5;28;01mas[39;00m [38;5;21;01mgpd[39;00m
-[1;32m      4[0m [38;5;28;01mimport[39;00m [38;5;21;01m____[39;00m [38;5;28;01mas[39;00m [38;5;21;01mpd[39;00m
-[1;32m      5[0m [38;5;28;01mimport[39;00m [38;5;21;01mmatplotlib[39;00m[38;5;21;01m.[39;00m[38;5;21;01mpyplot[39;00m [38;5;28;01mas[39;00m [38;5;21;01mplt[39;00m
+Cell [0;32mIn[3], line 1[0m
+[0;32m----> 1[0m [38;5;28;01mimport[39;00m [38;5;21;01mpooch[39;00m
+[1;32m      2[0m [38;5;66;03m# Download the data used in this notebook[39;00m
+[1;32m      3[0m data [38;5;241m=[39m pooch[38;5;241m.[39mretrieve([38;5;124m'[39m[38;5;124mhttps://unils-my.sharepoint.com/:u:/g/personal/tom_beucler_unil_ch/EZQnP79VVtROtOlxw5QpfoYBtPG54sb4CZ2vzlg0bKkPew?download=1[39m[38;5;124m'[39m,
+[1;32m      4[0m                           known_hash[38;5;241m=[39m[38;5;124m'[39m[38;5;124m200a740d0e448aa9e4e03d8a9965a70f228442a2da28d804c8e2337d0ef9749e[39m[38;5;124m'[39m,
+[1;32m      5[0m                           processor[38;5;241m=[39mpooch[38;5;241m.[39mUnzip()
+[1;32m      6[0m                           )
 
-[0;31mModuleNotFoundError[0m: No module named '____'
+[0;31mModuleNotFoundError[0m: No module named 'pooch'
 
