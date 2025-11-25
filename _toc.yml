@@ -145,6 +145,8 @@ parts:
           title: (Exercise) Introduction to Uncertainty Quantification and Generative Modeling
         - file: notebook_dl/Week_9_Generative_modeling.ipynb
           title: (Exercise) Autoencoders, Generative Adversarial Networks, and Diffusion Models
+        - file: notebook_dl/ldm_env_notebook_empty.ipynb
+          title: (Exercise) Learn to downscale coarse climate fields using Latent Diffusion
     - file: notebook_dl/Week_10_Hybrid_modeling.ipynb
       title: Hybrid Modeling and Knowledge-Guided Learning
       sections:
